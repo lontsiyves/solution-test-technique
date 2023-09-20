@@ -1,12 +1,16 @@
 {
-  "name": "car_showcase",
-  "version": "0.1.0",
+  "name": "testdevserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "MDA",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "start-json-server": "json-server --watch db.json --port 3020"
   },
   "dependencies": {
     "@types/node": "20.6.3",
